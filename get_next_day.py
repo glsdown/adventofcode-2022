@@ -18,7 +18,7 @@ import aocd
 DAY = "{DAY}"
 YEAR = "{YEAR}"
 
-def part_1(path):
+def part_1(path, submit):
     \"\"\"Part 1/Star 1\"\"\"
 
     # Open the file
@@ -36,7 +36,7 @@ def part_1(path):
         aocd.submit(answer, part="a", day=int(DAY), year=int(YEAR))
 
 
-def part_2(path):
+def part_2(path, submit):
     \"\"\"Part 2/Star 2\"\"\"
 
     # Open the file
