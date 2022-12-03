@@ -9,7 +9,6 @@ HERE = Path("__file__").parent
 YEAR = 2022
 
 TEMPLATE_PYTHON = """
-import re
 import sys
 
 import aocd
