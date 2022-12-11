@@ -2,4 +2,5 @@ advent-of-code-data
 black
 numpy
 shutup
+tqdm
 treelib
