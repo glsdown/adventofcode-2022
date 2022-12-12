@@ -17,12 +17,22 @@ import aocd
 DAY = "{DAY}"
 YEAR = "{YEAR}"
 
-def part_1(path, submit):
-    \"\"\"Part 1/Star 1\"\"\"
+
+def get_input(path):
+    \"\"\"Load the data from the file\"\"\"
 
     # Open the file
     with open(f"{{path}}/day-{{DAY}}.txt", "r") as f:
         values = [line.strip() for line in f.readlines()]
+
+    return values
+
+
+def part_1(path, submit):
+    \"\"\"Part 1/Star 1\"\"\"
+
+    # Get the data
+    data = get_input(path)
     
     # TODO: Complete the task
     answer = 0
@@ -38,9 +48,8 @@ def part_1(path, submit):
 def part_2(path, submit):
     \"\"\"Part 2/Star 2\"\"\"
 
-    # Open the file
-    with open(f"{{path}}/day-{{DAY}}.txt", "r") as f:
-        values = [line.strip() for line in f.readlines()]
+    # Get the data
+    data = get_input(path)
 
     # TODO: Complete the task
     answer = 0
