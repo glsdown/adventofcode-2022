@@ -2,6 +2,7 @@ advent-of-code-data
 black
 networkx
 numpy
+portion
 shutup
 tqdm
 treelib
